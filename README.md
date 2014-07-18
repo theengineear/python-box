@@ -6,7 +6,7 @@ Create the directory you want to have your virtual machine in. Mines here:
 `~/vms/python-tests`
 
 ### Step 2
-Change the Vagrant file line:
+Change a line in the `Vagrantfile` in your local copy of this repo:
 
 `config.vm.synced_folder "/Users/ee/PyCharmProjects/python-api", "/home/python-api"`
 
